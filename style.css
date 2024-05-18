@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+hr{
+    border-top: 2px solid black;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(wallpaper4.jpg);
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    max-width: 850px;
+    background-color: azure;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container .login {
+    width: 400px;   
+}
+
+.container .login .button{
+    text-align: center;
+}
+
+form {
+    width: 250px;
+    margin: 60px auto;
+}
+
+form label{
+    margin-top: 15px;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px;
+}
+
+input {
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    margin-top: 25px;
+    border-radius: 5px;
+    border: none;
+    width: 248px;
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color: rgb(56, 31, 154);
+    color: white;
+}
